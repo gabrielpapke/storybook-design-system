@@ -1,6 +1,5 @@
 {
   "name": "@ignite-ui/docs",
-  "private": true,
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
@@ -10,7 +9,10 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@ignite-ui/react": "*",
+    "@ignite-ui/tokens": "*",
+    "@ignite-ui/eslint-config": "*"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.12",
