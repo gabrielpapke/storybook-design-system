@@ -1,5 +1,3 @@
-import { colors } from '@ignite-ui/tokens'
-
 export function App() {
-  return <h1 style={{ color: colors.ignite300 }}></h1>
+  return <h1></h1>
 }
