@@ -1,5 +1,11 @@
 # @ignite-ui-papke/react
 
+## 2.0.2
+
+### Patch Changes
+
+- Adjust size prop to InputText component
+
 ## 2.0.1
 
 ### Patch Changes

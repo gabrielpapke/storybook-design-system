@@ -4,7 +4,17 @@ import { Box, Text, TextInput, TextInputProps } from '@ignite-ui-papke/react'
 export default {
   title: 'Form/Text Input',
   component: TextInput,
-  args: {},
+  args: {
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
   decorators: [
     (Story) => {
       return (
