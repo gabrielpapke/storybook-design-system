@@ -6,7 +6,7 @@
 - Vite
 - Changeset
 - Published to NPM packages
-- Workflow github pages confiration for CI/CD
+- Workflow github pages configuration for CI/CD
 
 See de demo here: https://gabrielpapke.github.io/storybook-design-system/
 
