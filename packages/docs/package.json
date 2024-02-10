@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
@@ -28,6 +29,7 @@
     "@storybook/manager-api": "7.5.3",
     "@storybook/react": "7.5.3",
     "@storybook/react-vite": "7.5.3",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^7.6.12",
     "@storybook/theming": "7.5.3",
     "@types/react": "^18.2.43",
